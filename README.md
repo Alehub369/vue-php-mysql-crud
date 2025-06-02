@@ -1,4 +1,4 @@
-# vue-php-mysql-crud
+# students_table_vue
 
 ## Project setup
 ```
