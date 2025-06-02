@@ -100,7 +100,7 @@ export default {
       modal:null,
       editModal:false,
       addModal:true,
-      Education:["High school", "Bachelor''s degree","Master''s degree","Doctorate"],
+      Education:["High school", "Bachelors degree","Masters degree","Doctorate"],
       UsersData:{
         id: null,
         name:null,

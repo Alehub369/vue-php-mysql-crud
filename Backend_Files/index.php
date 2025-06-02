@@ -3,7 +3,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "vue_tutorial";
+$dbname = "users_information";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
@@ -98,7 +98,7 @@ if($action=='editusers'){
 	$email=$_POST['email'];
 	$education=$_POST['education'];
 
-	$sql = "UPDATE `usersdata` SET `name` = '$name', `email` = '$email', `education` = '$education' WHERE `usersdata`.`id` = '$id'  ";
+	$sql = "UPDATE `usersdata` SET `name` = '$name', `email` = '$email', `education` = '$education' WHERE `id` = '$id'  ";
 
 	$result=$conn->query($sql);
 	if($result===true){
